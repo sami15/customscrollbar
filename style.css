@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 23, 23);
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    font-family: 'Segoe UI'sans-serif;
+    color: white;
+    border: 1px solid grey;
+    padding: 30px;
+    margin: 20px;
+    font-size: 1.1em;
+    
+    border-radius: 10px;
+}
+.card:nth-child(even){
+    background-color: rgb(51, 48, 48);
+}
+
+.main{
+    text-align: center;
+    color: black;
+    background-color: wheat;
+    padding: 20px;
+}
+
+/* Scrollbar Design */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+ 
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, rgba(32,252,255,1) 0%, rgba(212,242,61,1) 100%);
+    border-radius: 10px;
+  }
